@@ -4,7 +4,7 @@
 title: "360SALROI: Hybrid Saliency RoI Ranking in 360-degree Videos"
 date: 2020-08-20T12:00:00Z
 doi: # e.g. 10.1234/example.1
-github: https://github.com/lucas-althoff/360SAlROI # e.g. user-name/paper-now
+github: lucas-althoff/360SAlROI # e.g. user-name/paper-now
 
 authors:
   - &lucas-althoff
