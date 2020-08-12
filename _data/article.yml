@@ -1,38 +1,39 @@
 # Note: to avoid repeating the same data multiple times,
 # identifiers (starting with "&") are referenced later (starting with "*")
 
-title: "My First Article"
-date: 2015-03-15T12:00:00Z
+title: "360SALROI: Hybrid Saliency RoI Ranking in 360-degree Videos"
+date: 2020-08-20T12:00:00Z
 doi: # e.g. 10.1234/example.1
-github: # e.g. user-name/paper-now
+github: https://lucas-althoff.github.io/portfolio/portfolio-1/360SAlROI # e.g. user-name/paper-now
 
 authors:
-  - &alice-exemplar
-    id: "alice-exemplar"
-    name: "Alice Exemplar"
-    email: "alice.exemplar@example.com"
-    url: http://example.com/authors/1
-    orcid: "0000-0002-9298-3168"
+  - &lucas-althoff
+    id: "lucas-althoff"
+    name: "Lucas S. Althoff"
+    email: "190051612@aluno.unb.br"
+    url: http://lucas-althoff.github.io
+    orcid: "0000-0002-3387-9686"
 
-  - &bob-exemplar
-    id: "bob-exemplar"
-    name: "Bob Exemplar"
+  - &mylene-farias
+    id: "mylene-farias"
+    name: "Mylene C. Q. Farias"
     orcid: "0000-0002-9341-7985"
 
 affiliations:
-  - name: "Stanford University"
-    department: "Department of Mathematics"
-    location: "Stanford, California, USA"
-    url: http://mathematics.stanford.edu/
+  - name: "University of Brasília"
+    department: "Department of Computer Science"
+    location: "Brasília, Distrito Federal, Brazil"
+    url: http://ppgi.unb.br/
     members:
-      - *alice-exemplar
-      - *bob-exemplar
+      - *lucas-althoff
+      - *mylene-farias
 
-  - name: "Harvard University"
-    department: "Department of Molecular and Cellular Biology"
-    location: "Cambridge, MA, USA"
+  - name: "University of Brasília"
+    department: "Department of Electrical Engineering"
+    location: "Brasília, Distrito Federal, Brazil"
+    url: http://ppgee.unb.br/
     members:
-      - *alice-exemplar
+      - *henrique-garcia
 
 funders:
   - name: "Medical Research Council"
