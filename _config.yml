@@ -1,6 +1,6 @@
 safe: true
 exclude: ['README.md', 'Gemfile', 'Gemfile.lock', 'serve.sh', 'article.png', 'LICENSE']
-baseurl: ""
+baseurl: "lucas-althoff/360SalROI"
 imports:
     - https://peerj.github.io/research-article/research-article.html
 theme: https://peerj.github.io/paper-themes/paper-now/
