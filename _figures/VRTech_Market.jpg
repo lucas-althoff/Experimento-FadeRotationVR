@@ -1,0 +1,9 @@
+---
+layout: figure
+order: 1
+label: Figure 1
+title: "A box chart"
+description: "A description of the data"
+image: "data/VRTech_Market.jpg"
+---
+<img src="{{ site.baseurl }}/data/">
