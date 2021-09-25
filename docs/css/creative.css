@@ -8,7 +8,7 @@ body {
   /*font-family: 'Lato', sans-serif;*/
   font-family: 'Verdana', sans-serif;
   font-size: 12pt;
-  background-color: #E7E7E7;
+  background-color: #aa71da;
 }
 
 hr {
@@ -34,7 +34,7 @@ a {
 
 h1 {
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
-  color: #990000;
+  color: #f7f7f7;
   font-size: 2rem;
 }
 h1.title {
@@ -64,10 +64,10 @@ h5 {
 }
 
 a:hover {
-  color: #990000;
+  color: #0a0808;
 }
 a h1:hover, a h2:hover, a h3:hover, a h4:hover, a h5:hover, a h6:hover {
-  color: #990000;
+  color: #130f0f;
 }
 
 .container{
@@ -96,7 +96,7 @@ a h1:hover, a h2:hover, a h3:hover, a h4:hover, a h5:hover, a h6:hover {
 }
 
 .bg-primary {
-  background-color: #EFEFEF !important;
+  background-color: #aa71da !important;
 }
 
 .bg-dark {
@@ -165,12 +165,12 @@ img::-moz-selection {
 #mainNav .navbar-brand {
   font-weight: normal;
   text-transform: uppercase;
-  color: #990000;
+  color: #0f0e0e;
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
 }
 
 #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-  color: #990000;
+  color: #0c0a0a;
 }
 
 #mainNav .navbar-nav > li.nav-item > a.nav-link,
@@ -178,12 +178,12 @@ img::-moz-selection {
   font-size: .9rem;
   font-weight: 600;
   text-transform: uppercase;
-  color: #990000;
+  color: #0a0707;
 }
 
 #mainNav .navbar-nav > li.nav-item > a.nav-link:hover,
 #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
-  color: #990000;
+  color: #130c0c;
 }
 
 

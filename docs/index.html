@@ -44,17 +44,17 @@
     <!-- Navigation bar -->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
       <div class="container">
-        <a href="http://www.svcl.ucsd.edu" class="navbar-brand js-scroll-trigger my-0"><img src="assets/svcl_logo.png"></a>
+        <a href="https://www.unb.br/" class="navbar-brand js-scroll-trigger my-0"><img src="assets/unb_logo.jpeg"></a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#overview">YT-360</a>
+              <a class="nav-link js-scroll-trigger" href="#overview">PES-360 Project</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#download">Download</a>
+              <a class="nav-link js-scroll-trigger" href="#schedule">Schedule</a>
             </li>
           </ul>
         </div>
@@ -68,16 +68,23 @@
 
         <!-- Title-->
         <div class="col-12 mx-auto text-center mt-5">
-          <h1 class="section-heading mb-2">Youtube-360</h1>
-          <h3 class="title">A dataset of uncurated 360 video content with spatial audio.</h3>
+          <h1 class="section-heading mb-2">Fade-rotation: Attention-driving Mechanism for Content-adaptive Cinematic VR</h1>
+          <h3 class="title">Subjective Experiment to Understand the Effects of Fade Rotation.</h3>
         </div>
 
-        <!-- Video-->
+        <!-- Teaser Video
         <div class="col-12 text-center mt-2">
           <video class="d-block img-thumbnail" width="100%" autoplay loop>
             <source src="img/YT360.mp4" type="video/mp4" />
           </video>
         </div>
+        -->
+        
+        <!-- Teaser figure -->
+        <div class="col-12 text-center mt-2">
+          <img src="img/PES360_teaser.jpg" width="350" height="300">
+        </div>
+        
 
         <!-- Numbers -->
         <div class="row justify-content-center align-items-center">
@@ -85,21 +92,21 @@
             <div class="mt-5 mx-auto">
               <i class="fas fa-3x fa-vr-cardboard mb-3"></i>
               <!-- <i class="fa fa-2x fa-film mb-3 "></i> -->
-              <h3 class="mb-1">Spatial Media</h3>
-              <p>360 video+FOA</p>
+              <h3 class="mb-1">Cinematic Virtual Reality</h3>
+              <p>360-degree videos</p>
             </div>
           </div>
           <div class="col-lg-2 col-6 text-center">
             <div class="mt-5 mx-auto">
               <i class="fa fa-3x fa-film mb-3 "></i>
-              <h3 class="mb-1">+88000 Clips</h3>
-              <p>(10s each)</p>
+              <h3 class="mb-1">36 Clips</h3>
+              <p>(30s each)</p>
             </div>
           </div>
           <div class="col-lg-2 col-6 text-center">
             <div class="mt-5 mx-auto">
               <i class="far fa-3x fa-clock mb-3"></i>
-              <h3 class="mb-1">246 Hours</h3>
+              <h3 class="mb-1">40 minutes</h3>
               <p>&nbsp;</p>
             </div>
           </div>
@@ -107,54 +114,35 @@
 
         <!-- Description-->
         <div class="col-12 mx-auto pt-4">
-          <p class="text-justify">We collected a dataset of 360&deg; video with first order ambisonics from YouTube, containing clips from a diverse set of topics such as musical performances, vlogs, sports, and others. The dataset was cleaned  by removing videos that 1) did not contain valid ambisonics, 2) only contain still images, or 3) contain a significant amount of post-production sounds such as voice-overs and background music. To evaluate a model's ability to localize objects in a 360 scene, we also provide semantic segmentation predictions provided by a state-of-the-art ResNet101 Panoptic FPN model trained on the MS-COCO dataset. For more information about the dataset, please check our paper.</p>
-
+          <p class="text-justify">
+            Immersive experiences conducted by cinematic VR (CVR) videos are being delivered to viewers 
+            in an unprecedented pace, reaching massive numbers of content produced by amateurs and professionals. 
+            The aim of this study is to propose an attention-driving mechanism called fade rotation and find acceptable 
+            parameters to apply it accordingly to content conditions.
+            You will contribute with the research of University of Brasília in the field of Immerssive Media,  
+            360&deg; videos, please check our safety protocols and Schedule a session with our team.</p>
           <p>
-            <b>Learning Representations from Audio-Visual Spatial Alignment</b><br>
-            <a href="http://www.svcl.ucsd.edu/~morgado" target="_blank">Pedro Morgado</a>&#42;, 
-            <a href="http://www.svcl.ucsd.edu/people/yili/" target="_blank">Yi Li</a>&#42;, 
-            <a href="http://www.svcl.ucsd.edu/~nuno" target="_blank">Nuno Vasconcelos</a><br>
-            <i>Advances in Neural Information Processing Systems (NeurIPS), 2020.</i><br>
+            <b>Fade-rotation: Attention-driving Mechanism for Content-adaptive Cinematic VR</b><br>
+            <a href="https://lucas-althoff.github.io/" target="_blank">Lucas Althoff</a>&#42;, 
+            <a href="http://www.ene.unb.br/mylene/" target="_blank">Mylène C. Q. Farias</a>&#42;,
+            <i>ACM International Conference on Interactive Media Experiences (IMX 2022).</i><br>
             [
-            <a class="button button-pdf" href="http://www.svcl.ucsd.edu/~morgado/publications/2020-sptalign/paper.pdf" target="_blank">PDF</a> | 
-            <a class="button button-suppl" href="https://pedro-morgado.github.io/assets/publications/2020-sptalign/suppl.pdf" target="_blank">Suppl</a> | 
-            <a class="button button-arxiv" href="https://arxiv.org/abs/2011.01819" target="_blank">ArXiv</a> | 
-            <a class="button button-code" href="https://github.com/pedro-morgado/AVSpatialAlignment" target="_blank">Code</a> |
-            <a href="http://www.svcl.ucsd.edu/~morgado/publications/2020-sptalign/ref.txt">BibTeX</a> |
-            <a class="button button-video" href="https://youtu.be/E77nkQs1RMc" target="_blank">Video</a>
+            <a class="button button-pdf" href="inserir link para pdf" target="_blank">PDF</a> | 
+            <a class="button button-suppl" href="inserir link para pdf" target="_blank">Suppl</a> | 
+            <a class="button button-arxiv" href="inserir link para pdf" target="_blank">ArXiv</a> | 
+            <a class="button button-code" href="inserir link para repositório" target="_blank">Code</a> |
+            <a href="inserir link para .bib">BibTeX</a> |
+            <a class="button button-video" href="https://youtu.be/FIZaAbDZOwE" target="_blank">Video</a>
             ]</p>
         </div>
       </div>
-      </section>
-
-
-      <section id="download">
-        <div class="row justify-content-left">
-          <div class="col-12 mx-auto">
-            <h1 class="section-heading">Download</h1>
-            <p>We provide Youtube URLs and segment timestamps. If you experience issues downloading and processing the dataset, please email the authors for assistance.</p>
-
-            <a href="https://raw.githubusercontent.com/pedro-morgado/AVSpatialAlignment/main/datasets/assets/yt360/train.txt" target="_blank">
-              <h4><i class="fas fa-cloud-download-alt mr-2"></i>Training set (IDs)</h4>
-            </a>
-            <a href="https://raw.githubusercontent.com/pedro-morgado/AVSpatialAlignment/main/datasets/assets/yt360/test.txt" target="_blank">
-              <h4><i class="fas fa-cloud-download-alt mr-2"></i>Test set (IDs)</h4>
-            </a>
-            <a href="https://raw.githubusercontent.com/pedro-morgado/AVSpatialAlignment/main/datasets/assets/yt360/segments.txt" target="_blank">
-              <h4><i class="fas fa-cloud-download-alt mr-2"></i>Segments</h4>
-            </a>
-            <a href="https://nextcloud.nautilus.optiputer.net/s/zYisGXab9EJPtFB" target="_blank">
-              <h4><i class="fas fa-cloud-download-alt mr-2"></i>Semantic Segmentation</h4>
-            </a>
-          </div>
-        </div>
       </section>
 
       <section id="ack">
         <div class="row justify-content-center">
           <div class="col-lg-12 mx-auto">
             <h2 class="section-heading">Acknowledgements</h3>
-            <p class="text-faded text-justify">This work was partially funded by NSF award IIS-1924937 and NVIDIA GPU donations. We also acknowledge and thank the use of the Nautilus platform for some of the experiments in paper.</p>
+            <p class="text-faded text-justify">This work is partially supported by FAPESP (Fundação de Amparo à Pesquisa do Estado de São Paulo), grant 18/23086-1, by CAPES (Coordination for the Improvement of Higher Education Personnel), and by the University of Brasília..</p>
           </div>
         </div>
       </section>
