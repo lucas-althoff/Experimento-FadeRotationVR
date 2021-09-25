@@ -7,7 +7,7 @@ html {
 body {
   /*font-family: 'Lato', sans-serif;*/
   font-family: 'Verdana', sans-serif;
-  font-size: 12pt;
+  font-size: 10pt;
   background-color: #e2e2e2;
 }
 
@@ -221,9 +221,9 @@ img::-moz-selection {
 
 #mainNav .navbar-nav > li.nav-item > a.nav-link,
 #mainNav .navbar-nav > li.nav-item > a.nav-link:focus {
-  font-size: .9rem;
+  font-size: .3rem;
   font-weight: 600;
-  text-transform: uppercase;
+  text-transform: lowercase;
   color: #0a0707;
 }
 
