@@ -221,9 +221,9 @@ img::-moz-selection {
 
 #mainNav .navbar-nav > li.nav-item > a.nav-link,
 #mainNav .navbar-nav > li.nav-item > a.nav-link:focus {
-  font-size: .3rem;
+  font-size: .9rem;
   font-weight: 600;
-  text-transform: lowercase;
+  text-transform: uppercase;
   color: #0a0707;
 }
 
