@@ -6,10 +6,6 @@ Our branch of the project has the following goals:
 - Propose new attention-driving mechanism for CVR;
 - Study user behavior effects of the mechanism when using HMD;
 - Study content effect in parametrization of the mechanism;
-- Create a database with Spherical RoI annotation for story CVR;
-- Propose an hybrid saliency-motion RoI ranking model;
-- Develop an automatic content-based triggering solution for attention-driving techniques;
-- Integrate with ABR scheme for 360-video streaming. 
 
 # PES360: Perceptually-Efficient Streaming of 360-degree Edited Videos
 
