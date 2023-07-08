@@ -111,6 +111,17 @@
           });
         })();
         </script>
+
+        <script>
+          window.addEventListener('DOMContentLoaded', function() {
+            var whatsappLink = document.getElementById('whatsapp-link');
+            var text = "Olá, quero participar do seu experimento 😃";
+            var encodedText = encodeURIComponent(text);
+            var phone = "556199965391";
+            var url = "https://api.whatsapp.com/send?phone=" + phone + "&text=" + encodedText;
+            whatsappLink.href = url;
+          });
+        </script>
         <style>
           .col-12.mx-auto.pt-4 img {
             border: none;
@@ -120,23 +131,16 @@
           <p class="text-justify">
             <b>-> Onde?</b> Láboratório GPDS, prédio SG 11 - Entre a Faculdade de Tecnologia e o Departamento de Artes Cênicas (Veja no mapa abaixo)<br>
             <b>-> Mais informações?</b> (61)999965391
-            <a id="whatsapp-link" href="#">Falar com Pesquisador Responsável</a><br>
+            <a id="whatsapp-link" href="#">Enviar mensagem para pesquisador responsável</a><br>
             <b>-> Quando?</b> Entre os dias 07-29 de julho<br>
             <b>-> Como participar?</b> Agende a sua sessão no botão roxo!</p><br>
             --- ENGLISH:<br>
             <b>-> Where?</b> GPDS, SG 11 building. Between Tecnology Faculty and the Theatre Department (Take a look at the map below)<br>
-            <b>-> Further informations?</b> (61)999965391 WhatsApp<br>
+            <b>-> Further informations?</b> (61)999965391
+            <a id="whatsapp-link" href="#">Send a message in WhatsApp</a><br>
             <b>-> When?</b> From 07 to 29 de July<br>
             <b>-> How to participate?</b> Schedule your session at the violet button!</p><br>
         </div>
-        <script>
-          window.addEventListener('DOMContentLoaded', function() {
-            var whatsappLink = document.getElementById('whatsapp-link');
-            var encodedText = encodeURIComponent("Olá, quero participar do seu experimento 😃");
-            var url = "https://api.whatsapp.com/send?phone=556199965391&text=" + encodedText;
-            whatsappLink.href = url;
-          });
-        </script>
 
         <!-- Description-->
         <div class="col-12 mx-auto pt-4">
