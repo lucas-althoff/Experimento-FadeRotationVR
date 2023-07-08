@@ -90,9 +90,26 @@
 
 
         <!-- Schedule button -->
-        <div class="col-12 text-center mt-2">
+        <!-- <div class="col-12 text-center mt-2">
           <button class="button-29" role="button" onclick="location.href='https://calendar.google.com/calendar/u/0/selfsched?sstoken=UUdpVE5pdnhzVXYzfGRlZmF1bHR8YWRlOTJhMTA5NjY4Y2IwZjU1MTNkMTIyN2ViZThiMmU'" target="_blank">Agende sua sessão! <br> Schedule your session!</button>
-        </div>
+        </div> -->
+
+        <!-- Google Calendar Appointment Scheduling begin -->
+        <link href="https://calendar.google.com/calendar/scheduling-button-script.css" rel="stylesheet">
+        <script src="https://calendar.google.com/calendar/scheduling-button-script.js" async></script>
+        <script>
+        (function() {
+          var target = document.currentScript;
+          window.addEventListener('load', function() {
+            calendar.schedulingButton.load({
+              url: 'https://calendar.google.com/calendar/appointments/schedules/AcZssZ06bHx027O72fB430aSChjNOdn74I0bot9wOiZHBkls6sIw8n_K9whpENCpHV57__E4IVAMEOeY?gv=true',
+              color: '#039BE5',
+              label: 'Agendar um compromisso',
+              target,
+            });
+          });
+        })();
+        </script>
 
         <div class="col-12 mx-auto pt-4">
           <p class="text-justify">
